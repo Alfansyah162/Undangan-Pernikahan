@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Undangan Pernikahan</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Work+Sans:wght@300;500&display=swap');
+
+    body {
+      font-family: 'Work Sans', sans-serif;
+      background: url('https://www.transparenttextures.com/patterns/vintage-wallpaper.png'), linear-gradient(to bottom, #fdf6e3, #f7e1d7);
+      background-blend-mode: overlay;
+      color: #4e3e3e;
+      padding: 0;
+      margin: 0;
+    }
+    .container {
+      max-width: 700px;
+      margin: 2rem auto;
+      background: rgba(255, 250, 240, 0.95);
+      padding: 2.5rem;
+      border-radius: 25px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      border: 2px solid #c6a77d;
+      position: relative;
+      overflow: hidden;
+    }
+    h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 3rem;
+      color: #a97155;
+    }
+    h2 {
+      color: #805a3b;
+      font-weight: 500;
+    }
+    .names {
+      font-size: 1.6rem;
+      margin: 1.5rem 0;
+    }
+    .section {
+      margin-top: 2.5rem;
+      padding: 1rem;
+      border: 2px dashed #deb887;
+      border-radius: 10px;
+      background-color: #fffaf3;
+    }
+    .footer {
+      margin-top: 3rem;
+      font-style: italic;
+      color: #7a5e4c;
+      font-size: 0.95rem;
+    }
+    .image-section {
+      margin-top: 2rem;
+    }
+    .image-section img {
+      width: 100%;
+      border-radius: 16px;
+      margin-bottom: 1rem;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      border: 1px solid #e0c3a3;
+    }
+    .flower-decor {
+      position: absolute;
+      top: -30px;
+      left: -30px;
+      width: 150px;
+      opacity: 0.4;
+      transform: rotate(-15deg);
+    }
+    .flower-decor-bottom {
+      position: absolute;
+      bottom: -30px;
+      right: -30px;
+      width: 150px;
+      opacity: 0.4;
+      transform: rotate(15deg);
+    }
+  </style>
+</head>
+<body>
+  <audio autoplay loop>
+    <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_d5c7be3854.mp3?filename=sweet-emotion-10954.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+  <div class="container">
+    <img src="https://pngimg.com/uploads/flower/flower_PNG129.png" class="flower-decor" alt="Flower" />
+    <img src="https://pngimg.com/uploads/flower/flower_PNG129.png" class="flower-decor-bottom" alt="Flower" />
+
+    <h1>Undangan Pernikahan</h1>
+    <p>Dengan penuh rasa syukur dan cinta, kami mengundang Bapak/Ibu/Saudara/i untuk hadir dan memberikan doa restu pada acara pernikahan kami:</p>
+
+    <div class="names">
+      <strong>Alfansyah Izazaya</strong><br />
+      Putra dari Bapak Saleh & Ibu Tarnih<br /><br />
+      <strong>&</strong><br /><br />
+      <strong>Dwi Adelia Novianti</strong><br />
+      Putri dari Bapak Ali Hamzah & Ibu Fauziah
+    </div>
+
+    <div class="section">
+      <h2>Akad Nikah</h2>
+      <p>
+        🗓️ Tanggal: Sabtu, 28 Juni 2025<br />
+        ⏰ Waktu: 12:00 - selesai<br />
+        📍 Jalan Tanah Merdeka 1
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Resepsi</h2>
+      <p>
+        🗓️ Tanggal: Sabtu, 28 Juni 2025<br />
+        ⏰ Waktu: 12:00 - selesai<br />
+        📍 Jalan Tanah Merdeka 1
+      </p>
+    </div>
+
+    <div class="image-section">
+      <img src="Gambar WhatsApp 2025-03-31 pukul 13.23.22_6742c366.jpg" alt="Foto Pasangan" />
+      <img src="Gambar WhatsApp 2025-03-31 pukul 13.45.42_0aecc73e.jpg" alt="Foto Pasangan Berdiri" />
+    </div>
+
+    <div class="footer">
+      Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.<br /><br />
+      Salam hangat,<br />
+      <strong>Alfansyah Izazaya & Dwi Adelia Novianti</strong>
+    </div>
+  </div>
+</body>
+</html>
